@@ -78,5 +78,6 @@ module.exports = {
 ...
 ```
 
-6. open `tsconfig.spec.json` and replace `jasmine` with `jest` in `types` field
-7. that's it jest is now comlpetely integrated with latest angular
+6. add ` "esModuleInterop": true` to `compilerOptions` in `tsconfig.json`
+7. open `tsconfig.spec.json` and replace `jasmine` with `jest` in `types` field
+8. that's it jest is now comlpetely integrated with latest angular
